@@ -1026,9 +1026,6 @@ var jsPDF = (function (global) {
          * Object exposing internal API to plugins
          * @public
          */
-	API.addFont = function(postScriptName, fontName, fontStyle) {
-	      addFont(postScriptName, fontName, fontStyle, 'StandardEncoding');
-	    };
         API.internal = {
             'pdfEscape': pdfEscape,
             'getStyle': getStyle,
